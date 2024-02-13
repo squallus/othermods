@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares">
+	<ware id="Olympus_asgard_ware" name="{999732,2}" description="{999732,3}" group="ships_terran" transport="ship" volume="1" tags="blueprintsaleonly ship">
+      <price min="55632330" average="65449800" max="75267270" />
+      <production time="1290" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="1547" />
+          <ware ware="energycells" amount="7135" />
+          <ware ware="metallicmicrolattice" amount="3250" />
+        </primary>
+      </production>
+      <component ref="Olympus_asgard_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="terran" />
+    </ware>
+    <ware id="weapon_atf_xl_battleship_01_mk2_ware" name="{999732,5}" description="{999732,5}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="15777836" average="17530930" max="19284022" />
+      <production time="50" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="746" />
+          <ware ware="energycells" amount="2000" />
+          <ware ware="metallicmicrolattice" amount="3724" />
+          <ware ware="siliconcarbide" amount="644" />
+        </primary>
+      </production>
+      <component ref="weapon_atf_xl_battleship_01_mk2_macro" amount="1" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0" />
+      <owner faction="terran" />
+    </ware>
+	</add>
+</diff>

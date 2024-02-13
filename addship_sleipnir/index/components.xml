@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<index>
+	<entry name="mod_sleipnir" value="extensions\addship_sleipnir\assets\units\size_m\mod_sleipnir"/>
+	<entry name="mod_honshu" value="extensions\addship_sleipnir\assets\units\size_xl\mod_honshu"/>
+</index>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<index>
+	<entry name="mod_sleipnir_macro" value="extensions\addship_sleipnir\assets\units\size_m\macros\mod_sleipnir_macro"/>
+	<entry name="storage_mod_sleipnir_macro" value="extensions\addship_sleipnir\assets\props\storage\macros\storage_mod_sleipnir_macro"/>
+
+	<entry name="storage_mod_honshu_macro" value="extensions\addship_sleipnir\assets\units\size_xl\macros\storage_mod_honshu_macro"/>
+	<entry name="mod_honshu_macro" value="extensions\addship_sleipnir\assets\assets\props\storage\macros\mod_honshu_macro"/>
+</index>

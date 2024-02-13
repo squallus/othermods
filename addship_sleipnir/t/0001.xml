@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+
+		<page id="90501" title="Ships" descr="Ships" voice="yes">
+
+			<t id="10101">Sleipnir</t>
+			<t id="10102">The Sleipnir is based on the Katana and was designed by a Terran mining company as a cheaper alternative for security patrols. It is less suitable for combat than its original, but because of its similarity to the Katana it has the same deterrent effect on enemy ships. Since it lacks some defensive systems compared to the Katana, it offers a slightly improved flight behavior and also more space for cargo and crew.</t>
+			<t id="10103">Honshu Mk2</t>
+
+		</page>
+
+	</add>
+</diff>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Lino (192.168.3.62) at 22.03.2021_15-51-33-->
+<macros>
+  <macro name="weapon_atf_xl_battleship_01_mk2_macro" class="weapon">
+    <component ref="weapon_atf_xl_battleship_01_mk2" />
+    <properties>
+      <identification name="{999732,5}" basename="{999732,5}" makerrace="terran" description="{999732,5}" mk="2" />
+      <bullet class="bullet_atf_xl_beam_01_mk1_macro" />
+      <heat overheat="20000" cooldelay="0.13" coolrate="266" reenable="2000" />
+      <reload />
+      <hull max="10000" integrated="1" />
+      <effects>
+        <firing start="startshooting_atf_xl_beam_01_mk1" stop="stopshooting_atf_xl_beam_01_mk1" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

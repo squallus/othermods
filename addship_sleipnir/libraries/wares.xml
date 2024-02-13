@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares">
+
+		<ware id="mod_sleipnir" name="{90501,10101}" description="{90501,10102}" group="ships_terran" transport="ship" volume="1" tags="ship">
+			<price min="1000000" average="1200000" max="1400000"/>
+			<production time="23" amount="1" method="default" name="{20206,901}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="32"/>
+					<ware ware="energycells" amount="98"/>
+					<ware ware="metallicmicrolattice" amount="40"/>
+				</primary>
+			</production>
+			<component ref="mod_sleipnir_macro" amount="1"/>
+			<restriction licence="militaryship"/>
+			<owner faction="pioneers"/>
+		</ware>
+
+		<ware id="mod_honshu" name="{90501,10103}" description="{20101,63411}" group="ships_terran" transport="ship" volume="1" tags="ship">
+      		<price min="22324290" average="26263870" max="30203451"/>
+      		<production time="517" amount="1" method="default" name="{20206,901}">
+        		<primary>
+          			<ware ware="computronicsubstrate" amount="1221"/>
+          			<ware ware="energycells" amount="4859" />
+          			<ware ware="metallicmicrolattice" amount="1303"/>
+        		</primary>
+      		</production>
+      		<component ref="mod_honshu_macro" amount="1"/>
+      		<restriction licence="capitalship" />
+      		<owner faction="pioneers" />
+      		<owner faction="terran" />
+    	</ware>
+	</add>
+</diff>

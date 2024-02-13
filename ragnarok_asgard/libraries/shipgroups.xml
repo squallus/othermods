@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/groups/group[@name='atf_battleship_xl']/select[@macro='ship_atf_xl_battleship_01_a_macro']" type="@weight">95</add>
+	<add sel="/groups/group[@name='atf_battleship_xl']">
+		<select macro="Olympus_asgard_macro" weight="5"/>
+	</add>
+</diff>

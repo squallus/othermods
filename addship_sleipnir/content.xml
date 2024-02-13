@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="Sleipnir" name="TerraCorp Sleipnir" description="This mod adds the Sleipnir transporter to the game. The Sleipnir is based on the Katana and was designed by TerraCoprp as a better alternative for the Baldric." author="Sir_Leon" version="114" date="2023-02-19">
+  <text language="7" name="TerraCorp Sleipnir" description="Добавляет корабль Дайто в игру." author="Sir_Leon"></text>
+  <text language="44" name="TerraCorp Sleipnir" description="Adds the sleipnir to the game." author="Sir_Leon"></text>
+  <text language="49" name="TerraCorp Sleipnir" description="Fügt die sleipnir zum Spiel hinzu." author="Sir_Leon"></text>
+  <dependency id="ego_dlc_terran" name="Cradle of Humanity"></dependency>
+</content>

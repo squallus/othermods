@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+		<page id="999732" title="Olympus" descr="Olympus" voice="yes">
+			<t id="1">Olympus</t>
+			<t id="2">(Olympus) {999732,4}</t>
+			<t id="3">King Asgard is the highlight of Terran space superiority. But this ship is so difficult to build that one who dares to build it will need to invest absurd amount of resources. </t>
+			<t id="4">Olympus</t>
+			<t id="5">Olympus Main Battery</t>
+		</page>
+	</add>
+</diff>

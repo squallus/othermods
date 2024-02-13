@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/icons" pos="prepend">
+		<icon name="ship_Olympus_asgard_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\ships\ship_atf_xl_battleship_01_a_macro.tga" height="256" width="256"></icon>
+        <icon name="upgrade_weapon_atf_xl_battleship_01_mk2_macro" texture="extensions\ego_dlc_terran\assets\fx\gui\textures\upgrades\weapon_atf_xl_battleship_01_mk1_macro.tga" height="256" width="256"></icon>
+	</add>
+</diff>

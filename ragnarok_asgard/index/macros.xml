@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<diff>
+	<add sel = '/index' >
+		<entry name="Olympus_asgard_macro" value="extensions\Olympus_asgard\assets\units\size_xl\macros\Olympus_asgard_macro" />
+		<entry name="weapon_atf_xl_battleship_01_mk2_macro" value="extensions\Olympus_asgard\assets\props\weaponsystems\capital\macros\weapon_atf_xl_battleship_01_mk2_macro" />
+	</add>
+</diff>

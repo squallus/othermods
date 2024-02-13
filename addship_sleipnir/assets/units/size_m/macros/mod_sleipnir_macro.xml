@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<macros>
+	<macro name="mod_sleipnir_macro" class="ship_m">
+		<component ref="mod_sleipnir"/>
+
+		<properties>
+
+			<identification name="{90501,10101}" basename="{90501,10101}" makerrace="terran" description="{90501,10102}" icon="ship_m_trade_01"/>
+
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" compatible="1"/>
+			</software>
+
+			<explosiondamage value="5000"/>
+			<storage missile="40"/>
+			<hull max="35000"/>
+			<secrecy level="2"/>
+			<purpose primary="trade"/>
+			<people capacity="10"/>
+
+			<physics mass="26">
+				<inertia pitch="5.763" yaw="5.763" roll="5.01"/>
+				<drag forward="3.8" reverse="18.203" horizontal="13.622" vertical="13.622" pitch="8.311" yaw="8.311" roll="8.311"/>
+			</physics>
+
+			<ship type="transporter"/>
+			<thruster tags="medium"/>
+			<sound_occlusion inside="0.4"/>
+
+		</properties>
+
+		<connections>
+			
+			<connection ref="con_cockpit">
+				<macro ref="cockpit_gen_virtual_01_macro" connection="ship"/>
+			</connection>
+
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+
+			<connection ref="con_shipstorage_xs_01">
+				<macro ref="shipstorage_gen_xs_01_macro" connection="object"/>
+			</connection>
+
+			<connection ref="con_storage01">
+				<macro ref="storage_mod_sleipnir_macro" connection="ShipConnection"/>
+			</connection>
+
+		</connections>
+
+	</macro>
+</macros>

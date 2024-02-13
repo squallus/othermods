@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+	<add sel="//groups/group[@name='pio_military_m']">
+		<select macro="mod_sleipnir_macro"/>
+	</add>
+	<add sel="//groups/group[@name='pio_corvette_m']">
+		<select macro="mod_sleipnir_macro"/>
+	</add>
+
+</diff>
